@@ -1,0 +1,28 @@
+@page "/single"
+@page "/single/{image}"
+
+<div id="single" class="container">
+        <h2>Single Work @image</h2>
+        <br>
+        <img styel="width:100%;" src="/img/@(image).jpg" />
+        <br>
+        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+             ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+              laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+              voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
+              non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</h3>
+      </div>
+      <div class="row social">
+        <ul class="social-icons">
+          <li><a href="#" target="_blank"><img src="img/fb.png" alt="facebook"></a></li>
+          <li><a href="#" target="_blank"><img src="img/tw.png" alt="twitter"></a></li>
+          <li><a href="#" target="_blank"><img src="img/go.png" alt="google plus"></a></li>
+          <li><a href="#" target="_blank"><img src="img/pin.png" alt="pinterest"></a></li>
+          <li><a href="#" target="_blank"><img src="img/st.png" alt="stumbleupon"></a></li>
+          <li><a href="#" target="_blank"><img src="img/dr.png" alt="dribbble"></a></li>
+        </ul>
+</div>
+@functions {
+    [Parameter]
+    private string image { get; set; } = "1";
+}
