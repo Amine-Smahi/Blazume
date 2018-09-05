@@ -15,6 +15,9 @@ The steps are very easy you only have to
       
       user$ dotnet --version
       user$ 2.1.401 
+* Navigate to the server folder
+
+      user$ cd Blazume.Server
 * Restore the dependencies by typing the commande
   
       user$ dotnet restore
