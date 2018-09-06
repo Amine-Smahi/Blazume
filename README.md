@@ -1,5 +1,5 @@
 # Blazume
-A simple portfolio template using Blazor SPA framework.
+A simple portfolio/Resume template using Blazor SPA framework.
 
 ## What is Blazor
 Blazor is an experimental .NET web framework using C# and HTML that runs in the browser.
